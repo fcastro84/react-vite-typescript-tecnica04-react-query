@@ -48,7 +48,7 @@ function App() {
   
   const filterUser = useMemo(() => {
     return filterCountry !== '' && filterCountry.length > 0
-                          ? users.filter( user => user.location.country.toLowerCase().includes(filterCountry.toLowerCase()))
+                          ? users.filter( user => user?.location.country.toLowerCase().includes(filterCountry.toLowerCase()))
                           : users
   }, [users, filterCountry])
 

@@ -17,6 +17,6 @@ export const fetchUsers = async ( { pageParam = 1 }: { pageParam?: number }) => 
             nextCursor
         }
     } catch (data) {
-        return {}
+        return {users: []}
     }
 }

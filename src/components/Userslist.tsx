@@ -1,7 +1,7 @@
 import { SortedBy, User } from "../interfaces/types.d"
 
 interface UsersListProp {
-    sortingUser: User[]
+    sortingUser: User[] 
     showColor: boolean
     deleteUser: ( email: string) => void
     changeSort: ( sort: SortedBy) => void
