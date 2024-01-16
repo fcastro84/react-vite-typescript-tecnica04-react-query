@@ -108,7 +108,7 @@ function App() {
       <header className="navbar bg-neutral text-neutral-content justify-center p-10 flex-col gap-4">
         <h1 className='text-center text-6xl'>Prueba Técnica (React + TypeScript + React Query)</h1>
         <p className='text-lg'>El objetivo de esta prueba técnica es crear una aplicación similar a la que se proporciona en este <a href="https://midu-react-11.surge.sh/" target='_blank' className='link ml-3 font-extrabold'> EXAMPLE </a> </p>
-        <p className='text-lg'>El código final de este ejercicio lo puede encontrar en este <a href="https://midu-react-11.surge.sh/" target='_blank' className='link ml-3 font-extrabold'> REPO </a> </p>
+        <p className='text-lg'>El código final de este ejercicio lo puede encontrar en este <a href="https://github.com/fcastro84/react-vite-typescript-tecnica04-react-query" target='_blank' className='link ml-3 font-extrabold'> REPO </a> </p>
       </header>
       <nav className="menu menu-horizontal bg-white w-full border justify-center gap-4 p-4 mb-6">
         <button className='btn btn-outline btn-primary' onClick={handleToogleColor}>Colorear rows</button>
