@@ -1,4 +1,4 @@
-# React + TypeScript + Vite: Prueba técnica
+# React + TypeScript + Vite + React Query: Prueba técnica
 
 Esto es una prueba técnica de una empresa europea para un sueldo de 55000 €/anuales.
 
@@ -19,11 +19,21 @@ Los pasos a seguir:
 
 ## Instalation
 
-- yarn add -D tailwindcss postcss autoprefixer
-- yarn tailwindcss init -p
-- yarn add -D daisyui@latest
+```
+ $ yarn add -D tailwindcss postcss autoprefixer
+ $ yarn tailwindcss init -p
+ $ yarn add -D daisyui@latest
+ $ yarn add @tanstack/react-query -E
+```
 
 ## Testing
 
-- yarn add -D vitest happy-dom @testing-library/react
-- yarn add -D  @testing-library/jest-dom
+```
+ $ yarn add -D vitest happy-dom @testing-library/react
+ $ yarn add -D  @testing-library/jest-dom
+```
+
+## Documentation
+- [tailwindcss](https://tailwindcss.com/)
+- [daisyui](https://daisyui.com/)
+- [react-query](https://tanstack.com/query/latest/docs/react/installation)
