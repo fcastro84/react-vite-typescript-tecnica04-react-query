@@ -2,7 +2,7 @@ import { User } from "../interfaces/types.d"
 
 const APP_URL = 'https://randomuser.me/api/?results=10&seed=users&page='
 
-export const fetchUsers = async ( { pageParam = 1 }: { pageParam: number }) => {
+export const fetchUsers = async ( { pageParam = 1 }: { pageParam?: number }) => {
   try {
         const resp = await fetch(APP_URL+`${pageParam}`)
         
